@@ -1,1 +1,11 @@
 used moroccan zelij as the style basis
+
+Commands:
+python style.py --style /home/ubuntu/fast-style-transfer-master/zelij.jpg \
+  --checkpoint-dir /home/ubuntu/fast-style-transfer-master/checkpoint \
+  --content-weight 1.5e1 \
+  --checkpoint-iterations 2000
+
+python evaluate.py --checkpoint /home/ubuntu/fast-style-transfer-master/checkpoint/ \
+  --in-path ./eiffer.jpg \
+  --out-path ./eiffzel.jpg
