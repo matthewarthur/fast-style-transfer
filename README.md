@@ -1,3 +1,5 @@
+Helpful error troubleshooting: https://github.com/lengstrom/fast-style-transfer/issues/129
+
 ## Fast Style Transfer in [TensorFlow](https://github.com/tensorflow/tensorflow)
 
 Add styles from famous paintings to any photo in a fraction of a second! [You can even style videos!](#video-stylization)
